@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en" data-default-color-scheme=&#34;auto&#34;>
+<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
 
 
 
@@ -19,7 +19,7 @@
   <meta name="description" content="">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
-  <title>DMBlog</title>
+  <title>DerivativeMarmot&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
 
@@ -72,7 +72,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/">
                 <i class="iconfont icon-home-fill"></i>
-                Home
+                首页
               </a>
             </li>
           
@@ -84,7 +84,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/archives/">
                 <i class="iconfont icon-archive-fill"></i>
-                Archives
+                归档
               </a>
             </li>
           
@@ -96,7 +96,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/categories/">
                 <i class="iconfont icon-category-fill"></i>
-                Categories
+                分类
               </a>
             </li>
           
@@ -108,7 +108,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/tags/">
                 <i class="iconfont icon-tags-fill"></i>
-                Tags
+                标签
               </a>
             </li>
           
@@ -120,7 +120,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/about/">
                 <i class="iconfont icon-user-fill"></i>
-                About
+                关于
               </a>
             </li>
           
@@ -180,7 +180,13 @@
   <div class="row mx-auto index-card">
     
     
-    <article class="col-12 col-md-12 mx-auto index-info">
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2021/01/30/Hexo-Installation-Guide/" target="_self">
+          <img src="/../img/Hexo-Installation-Guide-index_img.jpg" srcset="/img/loading.gif" alt="Hexo Installation Guide">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
       <h1 class="index-header">
         
         <a href="/2021/01/30/Hexo-Installation-Guide/">Hexo Installation Guide</a>
@@ -192,11 +198,7 @@
           
             
           
-          准备下载并安装 Nodejs，git
-安装nodejs在nodejs官网下载二进制压缩包。
-新建文件夹 /usr/local/lib/node/nodejs 并将压缩包解压在这个路径下
-添加全局环境变量sudo vim /etc/profile 在最后一行添加
-123#Nodejsexport NODEJS_HOME=/usr/local/lib/node/nodejsexport PATH=$P
+          搭建自己的个人博客 | Hexo
         </a>
       </p>
 
@@ -206,45 +208,6 @@
             <i class="iconfont icon-date"></i>
             <time datetime="2021-01-30 18:36" pubdate>
               2021-01-30
-            </time>
-          </div>
-        
-        
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2021/01/29/my-first-blog-article/">my first blog article</a>
-      </h1>
-
-      <p class="index-excerpt">
-        <a href="/2021/01/29/my-first-blog-article/">
-          
-          
-            
-          
-          Chapter One
-Chapter Two
-Referencehttps://blog.eson.org/pub/70d0eddc
-
-www.DerivativeMarmot.com
-
-        </a>
-      </p>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2021-01-29 20:20" pubdate>
-              2021-01-29
             </time>
           </div>
         
@@ -312,7 +275,7 @@ Quick
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -321,7 +284,7 @@ Quick
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
           <label data-error="x" data-success="v"
-                 for="local-search-input">keyword</label>
+                 for="local-search-input">关键词</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
