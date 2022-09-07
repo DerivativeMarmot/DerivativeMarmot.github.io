@@ -1,6 +1,6 @@
 {
     "blog":{
-        "logo_path": ".logo/cloudreve-logo.png",
+        "logo_path": ".logo/default-logo.jpg",
         "display_name": "blog",
         "target": "derivativemarmot.github.io/blog/"
     }
