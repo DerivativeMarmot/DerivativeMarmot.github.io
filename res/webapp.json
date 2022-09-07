@@ -1,6 +1,6 @@
 {
     "blog":{
-        "logo_path": "./logo/hexo-logo.jpg",
+        "logo_path": "./res/logo/hexo-logo.jpg",
         "display_name": "blog",
         "target": "derivativemarmot.github.io/blog/"
     }
