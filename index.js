@@ -1,4 +1,4 @@
-fetch("./res/webapp.json")
+fetch("./webapp.json")
     .then(response => {
         return response.json();
     })
