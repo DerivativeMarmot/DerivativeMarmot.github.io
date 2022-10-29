@@ -3,5 +3,10 @@
         "logo_path": "./res/logo/hexo-logo.png",
         "display_name": "blog",
         "target": "blog/"
+    },
+    "torrents-ghp":{
+        "logo_path": "./res/logo/default-logo.jpg",
+        "display_name": "torrents",
+        "target": "torrents-ghp/"
     }
 }
